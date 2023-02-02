@@ -1,0 +1,306 @@
+body, html{
+	height: 100%;	
+	margin: 0;	
+	padding: 0;
+}
+
+body{
+	margin: 0;	
+	padding: 0;	
+	display: flex;	
+	flex-direction: column;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	transition: 1,2s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.loader {
+	margin: auto;
+	width: 75px;
+	height: 75px;
+	border:10px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	border-left-color:#5f5f60;
+	animation: loader 2s linear infinite;
+}
+   @keyframes loader {
+	100% {
+	 transform: rotate(360deg);
+	}
+}
+.mask img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: fixed;
+ width: 50px;
+ height: 50px;
+}
+.logo p{
+	color: black;
+	font-size: 30px;
+	font-family: 'Kanit', sans-serif;
+	-webkit-text-stroke-color: #fff;
+	-webkit-text-stroke-width: 0.5px;
+	 text-shadow: lightblue -2px -2px;
+}
+.logo p:hover{
+	-webkit-text-stroke-color: lightblue;
+	-webkit-text-stroke-width: 1px;
+	text-shadow: lightblue 3px 3px;
+	transition: 0.2s;
+	filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.549));
+
+}
+
+.hd-content {
+	padding: 20px;
+	background-color: black;
+	height: 100px;
+	flex: 0 0 auto;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.070);
+	
+}
+header {
+	height: 100px;
+	padding: 0 40px 0 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.header-nav a{
+	text-decoration: none;
+	display: block;
+	margin: 20px;
+	padding: 2px;
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+}
+.header-nav a:hover{
+	filter: drop-shadow(0px 0px 10px #5a5a5a) drop-shadow(0px 0px 10px #5a5a5a) drop-shadow(0px 0px 10px #5a5a5a);
+    text-decoration: underline;
+    text-decoration-color: black;
+    transition: 1.5s;
+	
+	
+}
+
+.main-content{
+	background: url(https://wallpapers-fenix.eu/full/141212/121245815.jpg);
+    background-size:cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	display: flex;
+	height: 300%;
+	margin: 0;
+	flex-wrap: wrap;
+	
+}
+.block1{
+	box-shadow: inset 0px 0px 30px 50px rgba(0, 0, 0, 7);
+	height: 700px;
+	width: 100%;
+	display: flex;	
+	flex-wrap: wrap-inline;
+	flex-basis: 100%;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+
+}
+.block1-welcome{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.block1-welcome h1{
+	filter: drop-shadow(0px 0px 20px #000000) drop-shadow(0px 0px 20px #000000) drop-shadow(0px 0px 20px #000000);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.block1-table{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: 1000;
+}
+.block1-table tr{
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	filter: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000);
+}
+.block1 h1{
+	font-family: 'Exo 2', sans-serif;
+	height: 200px;
+	width: 50%;
+	padding: 30px 0 0 0;
+	font-size: 3rem;
+	display: flex;
+	filter: drop-shadow(0px 0px 20px #000000) drop-shadow(0px 0px 20px #000000) drop-shadow(0px 0px 20px #000000);
+	color: white;
+}
+.block1 table{
+	border: 5px solid white;
+	padding: 0;
+	align-items: center;
+	color: white;
+}
+.block2{
+	display: flex;
+	justify-content: space-between;
+	background: white;
+	width: 100%;
+	height: 300px;
+	flex-wrap: wrap-inline;
+	flex-basis: 100%;
+	flex-grow: 1;
+}
+
+.block2-content h2{
+	font-family: 'Red Hat Display', sans-serif;
+ 	display: flex;
+	color: black;
+}
+.block2-content{
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column  wrap;
+}
+.block2-map{
+	display: flex;
+	align-items: center;
+	padding: 3px;
+}
+.block3{
+	box-shadow: inset 0px 0px 30px 50px rgba(0, 0, 0, 7);
+	height: 700px;
+	width: 100%;
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+}
+.block3-content{
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.block3-content h1{
+	color: white;
+	filter: drop-shadow(0px 0px 30px #000000) drop-shadow(0px 0px 30px #000000) drop-shadow(0px 0px 30px #000000);
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.6em;
+}
+.block3-forms{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 500px;
+	width: 20%;
+	justify-content: center;
+	align-items: center;
+}
+input, button{
+	background-color: #000000;
+	border: 2px rgb(255, 255, 255) solid;
+	color: white;
+	height: 30px;
+	width: 70%;
+	border-radius: 50px;
+	font-family: 'Poiret One', cursive;
+	font-style: italic;
+	font-size: 25px;
+	padding: 5px
+}
+input:focus, button:hover {
+	border-radius: 0%;
+	background-color: rgb(95, 47, 129);
+	border: 1px rgb(255, 255, 255) solid;
+	color: white;
+	width: 85%;
+	transition: 1s;
+}
+button{
+	font-style: normal;
+	height: 50px;
+	width: 50%;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+}
+input::placeholder{
+	color: white;
+	text-align: center;
+}
+input:focus::placeholder{
+	visibility: hidden;
+	transition: 0,5s;
+}
+button:focus{
+	background-color: rgb(48, 17, 70);
+	color: white;
+	border-radius: 5px;
+}
+input[type=time]{
+	text-align: center;
+}
+.label-style{
+	font-size: 1.5em;
+	color: white;
+	filter: drop-shadow(0px 0px 5px #000000) drop-shadow(0px 0px 5px #000000) drop-shadow(0px 0px 5px #000000);
+	font-family: 'Poiret One', cursive;
+	padding: 5%;
+	align-items: center;
+}
+.ft-items{
+	border-top: 1px solid rgba(255, 255, 255, 0.070);
+	height: 150px;
+	flex: 0 0 auto;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ft-item3 p{
+	list-style: none;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+}
+.ft-items img{
+	width: 40px;
+	height: 40px;
+}
+.ft-items img:hover{
+	filter: drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #ffffff);
+	transition: 1s;
+}
+.hide{
+	opacity: 0;
+}
