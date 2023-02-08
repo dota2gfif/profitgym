@@ -2,12 +2,7 @@ body, html{
 	height: 100%;	
 	margin: 0;	
 	padding: 0;
-}
-
-body{
 	width: 100%;
-	margin: 0;	
-	padding: 0;	
 	display: flex;	
 	flex-direction: column;
 }
@@ -67,7 +62,6 @@ body{
 	padding: 20px;
 	background-color: black;
 	height: 100px;
-	flex: 0 0 auto;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.070);
 	
 }
@@ -102,7 +96,11 @@ header {
 	
 	
 }
-
+.wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
 .main-content{
 	background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-74086.jpg), linear-gradient(to right, rgba(0, 0, 0, 7), rgba(0, 0, 0, 7));
     background-size:cover;
@@ -112,7 +110,7 @@ header {
 	height: 300%;
 	margin: 0;
 	flex-wrap: wrap;
-	
+	flex: 1 1 auto;
 }
 .block1{
 	padding-bottom: 40px;
@@ -193,7 +191,7 @@ header {
 	flex-flow: column  wrap;
 }
 .block2-map{
-	min-width: 350px;
+	min-width: 320px;
 	min-height: 100px;
 	flex:1 1 50%;
 	display: flex;
@@ -236,13 +234,14 @@ input, button{
 	height: 30px;
 	width: 70%;
 	border-radius: 50px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Yeseva One', cursive;
 	font-style: italic;
 	font-size: 25px;
 	padding: 5px
 }
 input:focus, button:hover {
 	border-radius: 0%;
+	font-family: 'Yeseva One', cursive;
 	background-color: rgb(95, 47, 129);
 	border: 1px rgb(255, 255, 255) solid;
 	color: white;
@@ -285,7 +284,6 @@ input[type=time]{
 .ft-items{
 	border-top: 1px solid rgba(255, 255, 255, 0.070);
 	height: 150px;
-	flex: 0 0 auto;
 	background-color: black;
 	display: flex;
 	justify-content: space-evenly;
@@ -334,6 +332,22 @@ input[type=time]{
 }
 .hide{
 	opacity: 0;
+}
+@media screen and (max-width: 1024px){
+	.block3-forms{
+		display: flex;
+		flex-direction: column;
+	}
+	button{
+		align-items: center;
+		font-size: 0.7rem;
+	}
+	.label-style{
+		font-size: 0.9rem;
+	}
+	input{
+		font-size: 0.8rem;
+	}
 }
 @media screen and (max-width: 768px){
 	.block1-welcome h1{
@@ -421,9 +435,6 @@ input[type=time]{
 	.block2{
 		justify-content: center;
 	}
-	.block2-map{
-
-	}
 	.block2-content h2{
 		font-size: 1rem;
 	}
@@ -507,6 +518,13 @@ input[type=time]{
 	body{
 		width: 321px;
 	}
+	.logo p{
+		font-size: 15px;
+		width: 100%;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
 	.block1-table tr{
 		font-size: 15px;
 	}
@@ -516,7 +534,20 @@ input[type=time]{
 	.block1-welcome h1{
 		font-size: 1.4rem;
 	}
-	.block2-map{
-		
+
+	.block3-content h1{
+		font-size: 15px;
+	}
+	.label-style{
+		font-size: 1em;
+		justify-content: center;
+	}
+	.block3-forms input, button{
+		font-size: 10px;
+	}
+	.ft-item3 h1, p{
+		align-items: center;
+		text-align: center;
+		font-size: 10px;
 	}
 }
