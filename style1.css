@@ -78,7 +78,6 @@ body{
 }
 header {
 	height: 100px;
-	padding: 0 40px 0 40px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -113,7 +112,6 @@ header {
 .wrapper{
  	display: flex;
  	flex-direction: column;
- 	min-height: 100%;
 }
 
 .main-content{
@@ -306,6 +304,17 @@ header {
 	opacity: 0;
 }
 @media screen and (max-width : 1024px) {
+	.ft-items img {
+    width: 30px;
+    height: 30px;
+	}
+	.logo p {
+    font-size: 20px;
+    text-align: center;
+	}
+	.header-nav a {
+    font-size: 10px;
+	}
    .calc-form{
    	flex-direction: column;
    	justify-content: space-between;
@@ -324,20 +333,19 @@ header {
    	font-size: 1em;
    }
 	.logo p{
-	font-size: 1rem;
 	text-align: center;
 	justify-content: flex-start;
-	padding-right: 80px;
 	}
    .header-nav{
    	flex-wrap: wrap;
-	justify-content: flex-end;
+	justify-content: center;
 	text-align: center;
-   }
-   .header-nav a{
-   	font-size: 0.7rem;
    }
    .ft-item3 p, h1{
    	font-size: 0.5rem;
    }
+}
+@media screen and (max-width: 320px){
+	.logo p {
+    font-size: 15px;
 }

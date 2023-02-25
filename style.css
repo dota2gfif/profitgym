@@ -67,7 +67,7 @@ body, html{
 }
 header {
 	height: 100px;
-	padding: 0 40px 0 40px;
+	padding: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -345,6 +345,17 @@ input[type=time]{
 	opacity: 0;
 }
 @media screen and (max-width: 1024px){
+	.ft-items img {
+    	width: 30px;
+    	height: 30px;
+	}
+	.header-nav{
+		justify-content: center;
+		align-items: center;
+	}
+	.logo p{
+		text-align: center;
+	}
 	.block3-forms{
 		display: flex;
 		flex-direction: column;
@@ -423,7 +434,14 @@ input[type=time]{
 	}
 }
 @media screen and (max-width: 426px){
-		.block1-welcome h1{
+	.header-nav a{
+		font-size: 10px;
+	}
+	.logo p{
+		font-size: 20px;
+		text-align: center;
+	}
+	.block1-welcome h1{
 		font-size: 30px;
 	}
 	body{
@@ -508,8 +526,8 @@ input[type=time]{
 		font-size: 10px;
 	}
 	.logo p{
+		text-align: center;
 		font-size: 20px;
-		padding-right: 80px;
 	}
 	button{
 		font-size: 0.7rem;
