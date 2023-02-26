@@ -93,9 +93,9 @@ header {
 }
 .header-nav a:hover{
 	filter: drop-shadow(0px 0px 10px #5a5a5a) drop-shadow(0px 0px 10px #5a5a5a) drop-shadow(0px 0px 10px #5a5a5a);
-    text-decoration: underline;
-    text-decoration-color: black;
-    transition: 1.5s;
+    	text-decoration: underline;
+    	text-decoration-color: black;
+    	transition: 1.5s;
 }
 .wrapper{
 	min-height: 230%;
@@ -109,9 +109,8 @@ header {
 	align-items: center;
 	flex-direction: column;
 	background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-74086.jpg), linear-gradient(to right, rgba(0, 0, 0, 7), rgba(0, 0, 0, 7));
-    background-size:cover;
+   	background-size:cover;
 	background-position: 50% 50%;
-	background-attachment: fixed;
 	height: 300%;
 	margin: 0;
 	flex-wrap: wrap;
