@@ -225,6 +225,9 @@ header {
 	align-items: center;
 }
 input, button{
+	text-align: center;
+	-webkit-clip-path: polygon(15% 0, 100% 0%, 84% 100%, 0% 100%);
+	clip-path: polygon(15% 0, 100% 0%, 84% 100%, 0% 100%);
 	background-color: black;
 	border: 3px rgb(255, 255, 255) solid;
 	color: white;
@@ -236,18 +239,18 @@ input, button{
 	padding: 5px
 }
 input:focus{
+	font-size: 20px;
+	text-align: center;
 	font-family: 'IBM Plex Sans', sans-serif;
-	background-color: rgb(95, 47, 129);
+	background-color: grey;
 	color: white;
-	transition: 1s;
 }
 button:hover{
 	border-radius: 0%;
-	background-color: rgb(95, 47, 129);
+	background-color: grey;
 	border: 3px rgb(255, 255, 255) solid;
 	color: white;
 	font-weight: 1000;
-	transition: 1s;
 }
 button{
 	font-style: normal;
@@ -266,7 +269,7 @@ input:focus::placeholder{
 	transition: 0,5s;
 }
 button:focus{
-	background-color: rgb(48, 17, 70);
+	background-color: grey;
 	color: white;
 	border-radius: 5px;
 }
