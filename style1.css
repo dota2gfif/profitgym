@@ -118,7 +118,6 @@ header {
 	box-shadow: inset 0px 0px 30px 50px rgba(0, 0, 0, 7);
 	background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-74086.jpg);
     background-size:cover;
-    background-attachment: fixed;
 	background-position: 50% 50%;
 	background-attachment: fixed;
 	display: flex;
@@ -142,7 +141,6 @@ header {
 	flex-direction: column;
 }
 .calc-form1 span{
-	filter: drop-shadow(2px 0 1px black);
 	padding: 20px;
 	font-size: 2rem;
 	color: white;
@@ -191,7 +189,6 @@ header {
 	flex-direction: column;
 }
 .calc-form2 span{
-	filter: drop-shadow(2px 0 1px black);
 	padding: 20px;
 	font-size: 2rem;
 	color: white;
