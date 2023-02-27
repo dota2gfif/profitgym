@@ -142,7 +142,7 @@ header {
 	flex-direction: column;
 }
 .calc-form1 span{
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);	
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	padding: 20px;
 	font-size: 2rem;
 	color: white;
@@ -151,7 +151,7 @@ header {
 }
 
 .calc-form1 label{
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	padding: 10px;
   	font-size: 1.5rem;
   	color: white;
@@ -191,7 +191,7 @@ header {
 	flex-direction: column;
 }
 .calc-form2 span{
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	padding: 20px;
 	font-size: 2rem;
 	color: white;
@@ -199,7 +199,7 @@ header {
 	font-weight: 1000;
 }
 .calc-form2 label{
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	padding: 10px;
   	font-size: 1.5rem;
   	color: white;

@@ -92,7 +92,7 @@ header {
 	color: white;
 }
 .header-nav a:hover{
-	filter: drop-shadow(0px 0px 10px #5a5a5a) drop-shadow(0px 0px 10px #5a5a5a) drop-shadow(0px 0px 10px #5a5a5a);
+	filter: drop-shadow(0px 0px 3px #5a5a5a) drop-shadow(0px 0px 3px #5a5a5a) drop-shadow(0px 0px 3px #5a5a5a);
     text-decoration: underline;
     text-decoration-color: black;
     transition: 1.5s;
@@ -121,7 +121,7 @@ header {
 .block3 tr{
 	font-size: 30px;
 	color: rgb(255, 255, 255);
-	filter: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 }
 .block3 table{
 	margin-bottom: 20%;
@@ -132,14 +132,14 @@ header {
 	font-family: 'Poiret One', cursive;
 }
 .welcome h1{
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	font-size: 2rem;
 }
 .block1{
 	display: flex;
 }
 .block1 li{
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	font-family: 'Exo 2', sans-serif;
 	color: white;
 	font-size: 20px;
@@ -148,7 +148,7 @@ header {
 .block2 p{
 	text-align: center;
 	padding: 100px;
-	filter: drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black) drop-shadow(0px 0px 10px black);
+	filter: drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black) drop-shadow(0px 0px 1px black);
 	font-size: 1.5rem;
 	color: white;
 	font-family: 'Exo 2', sans-serif;
