@@ -1,5 +1,6 @@
 body, html{
 	background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-74086.jpg);
+	background-size: cover;
 	height: 100%;	
 	margin: 0;	
 	padding: 0;
