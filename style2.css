@@ -1,7 +1,7 @@
 body, html{
-	background-size: cover;
-		background-attachment: fixed;
 	background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-74086.jpg);
+    background-size:cover;
+	background-attachment: fixed;
 	height: 100%;	
 	margin: 0;	
 	padding: 0;
@@ -105,7 +105,7 @@ header {
     transition: 1.5s;
 }
 .wrapper{
-	min-height: 230%;
+	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -116,7 +116,6 @@ header {
 	width: 100%;
 	align-items: center;
 	flex-direction: column;
-	height: 300%;
 	margin: 0;
 	flex-wrap: wrap;
 	flex: 1 1 auto;

@@ -1,6 +1,6 @@
 body, html{
 	background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-74086.jpg);
-	background-size: cover;
+    background-size:cover;
 	background-attachment: fixed;
 	height: 100%;	
 	margin: 0;	
@@ -116,6 +116,7 @@ header {
 /*MAIN*/
 
 .wrapper{
+	min-height: 100%;
  	display: flex;
  	flex-direction: column;
 }
@@ -159,6 +160,8 @@ header {
   	font-weight: 500;
 }
 .calc-form1 input{
+	filter: drop-shadow(0px 0 10px white);
+	opacity: 0.7;
 	padding: 5px;
 	width: 100%;
 	height: 5%;
@@ -206,6 +209,8 @@ header {
   	font-weight: 500;
 }
 .calc-form2 input{
+	filter: drop-shadow(0px 0 10px white);
+	opacity: 0.7;
 	padding: 5px;
 	width: 100%;
 	height: 5%;
