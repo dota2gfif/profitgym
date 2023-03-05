@@ -402,8 +402,9 @@ document.querySelectorAll("#BODY path").forEach((el) => {
 		$('.owl-carousel').owlCarousel({
 		    loop:true,
 		    margin:10,
-		    nav:false,
-		    dots: true,
+		    nav:true,
+		    dots: false,
+
 		    responsive:{
 		        0:{
 		            items:1
